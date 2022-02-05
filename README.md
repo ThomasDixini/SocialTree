@@ -8,5 +8,8 @@ Neste desafio você deve criar uma página com uma lista de links que pode ser u
 - [x] CSS
 - [x] JavaScript
 
+
+# Layout da Aplicação
+
 <img src="https://github.com/ThomasDixini/SocialTree/blob/master/assests/App.png" width="1000" />
 
