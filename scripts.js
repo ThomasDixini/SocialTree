@@ -9,5 +9,7 @@ fetch('https://api.github.com/users/ThomasDixini')                          // B
 .then(data => {
 
     img.setAttribute('src', data.avatar_url);
-    icon.append(img)
+    img.setAttribute('class', 'avatar_icon');
+    
+    icon.prepend(img)
 })
