@@ -34,6 +34,14 @@ button {
     opacity: 0.6;
 }
 
+a:hover {
+
+    transition: filter 0.2s;
+
+    filter: brightness(0.7)
+
+}
+
 
 
 @media(max-width: 1080px){
@@ -48,7 +56,6 @@ button {
     }
 }
 
-/* GLOBALS STYLES =============================================================*/
 
 main {
     max-width: 400px;
@@ -58,11 +65,25 @@ main {
    
 }
 
+
+/* GLOBALS STYLES =============================================================*/
+
+
+/* MENU ========================================================= */
+
+
+
 .menu {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
     gap: 0.5rem;
 }
+
+.menu:nth-child(2){
+    margin-top: 2rem;
+}
+
+
 
 .menu > div {
     
@@ -79,4 +100,21 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+
+
+/* =================================================================*/
+
+/* FOOTER =============================================================*/
+
+
+footer {
+    width: 100%;
+    margin-top: 2.5rem;
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 2rem;
 }
