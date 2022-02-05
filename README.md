@@ -9,5 +9,5 @@ Neste desafio você deve criar uma página com uma lista de links que pode ser u
 - [x] JavaScript
 
 
-[Imagem da Aplicação](/assets/App.png)
+[Imagem da Aplicação](https://github.com/ThomasDixini/SocialTree/blob/master/assests/App.png)
 
