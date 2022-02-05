@@ -34,6 +34,11 @@ button {
     opacity: 0.6;
 }
 
+a {
+    color: var(--purple);
+    text-decoration: none;
+}
+
 a:hover {
 
     transition: filter 0.2s;
@@ -111,7 +116,7 @@ main {
 
 footer {
     width: 100%;
-    margin-top: 2.5rem;
+    margin-top: 0rem;
 
     display: flex;
     justify-content:center;
